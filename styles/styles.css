@@ -5,8 +5,27 @@ body {
 }
 
 #title {
-    color: #aaff00;
+    color: #C1FF4F;
     padding: 5px 50px;
+}
+
+em {
+    color: #C1FF4F;
+    font-style: normal;
+}
+
+#welcome_box {
+        margin: 50px 50px;
+}
+
+.comments {
+    color: #C1FF4F;
+}
+
+#welcome_text {
+    font-family: 'DM Serif Display', serif;
+    line-height: 1.1;
+    font-size: 2rem;
 }
 
 #navigation_bar {
