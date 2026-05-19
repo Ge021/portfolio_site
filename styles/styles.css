@@ -1,5 +1,5 @@
 body {
-    background:#000000;
+    background:#0d0d0d;
     font-family: 'DM Mono';
     color: white;
 }
@@ -77,6 +77,10 @@ em {
     border-radius: 5px;
 }
 
+#main_projects_btn:hover {
+    cursor: pointer;
+}
+
 #main_CV_btn {
     padding: 5px 20px;
     background: #000000;
@@ -85,3 +89,45 @@ em {
     border-color: gray;
     border-radius: 5px;
 }
+
+#main_CV_btn:hover {
+    cursor: pointer;
+}
+
+.container_title {
+    color: gray;
+    font-size: 1rem;
+    padding: 16px 0px 16px 50px;
+    border-bottom: 1px solid #1a1a1a;
+}
+.card_container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #1a1a1a;
+}
+
+.card_type {
+    padding-bottom: 10px;
+}
+
+.card_title {
+    color: #ffff;
+}
+
+.card_description {
+    font-size: 0.9rem;
+}
+
+.subtitle {
+    margin: 0;
+    padding-bottom: 16px;
+}
+
