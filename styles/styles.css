@@ -97,7 +97,7 @@ em {
 .container_title {
     color: gray;
     font-size: 1rem;
-    padding: 16px 0px 16px 50px;
+    padding: 30px 0px 30px 50px;
     border-bottom: 1px solid #1a1a1a;
 }
 .card_container {
@@ -129,5 +129,18 @@ em {
 .subtitle {
     margin: 0;
     padding-bottom: 16px;
+}
+
+.skills_btn {
+    background: #023800;
+    color: #ace446;
+    border: 1px solid #86b137;
+    border-radius: 5px;
+    padding: 2.5px 10px;
+}
+
+.skills_btn:hover {
+    background: #045f00;
+    cursor: pointer;
 }
 
