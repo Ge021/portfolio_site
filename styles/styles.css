@@ -15,7 +15,8 @@ em {
 }
 
 #welcome_box {
-        margin: 50px 50px;
+        padding: 50px 50px;
+        border-bottom: 1px solid #1a1a1a;
 }
 
 .comments {
@@ -53,4 +54,9 @@ em {
 
 .nav_button:hover {
     background: #1a1a1a;
+}
+
+#summary {
+    width: 600px;
+    color: gray;
 }
