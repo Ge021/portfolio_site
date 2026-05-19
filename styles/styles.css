@@ -150,11 +150,14 @@ em {
 }
 
 .contact_btn{
+    font-family: 'DM Mono', serif;
+    font-size: 0.9rem;
     display: flex;
     gap: 5px;
     background: #1a1a1a;
     color: grey;
     border-radius: 5px;
+    border: 1px solid gray;
     padding: 8px 12px;
     align-items: center;
 }
