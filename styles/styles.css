@@ -1,6 +1,6 @@
 body {
     background:#0d0d0d;
-    font-family: 'DM Mono';
+    font-family: 'DM Mono', serif;
     color: white;
 }
 
@@ -142,5 +142,41 @@ em {
 .skills_btn:hover {
     background: #045f00;
     cursor: pointer;
+}
+
+#contacts_container {
+    display: flex;
+    gap: 15px;
+}
+
+.contact_btn{
+    display: flex;
+    gap: 5px;
+    background: #1a1a1a;
+    color: grey;
+    border-radius: 5px;
+    padding: 8px 12px;
+    align-items: center;
+}
+
+.contact_btn:hover{
+    color: lightgray;
+    border-color: lightgray;
+}
+
+#green {
+    border-radius: 10px;
+    background-color: #ace446;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+#blue {
+    border-radius: 10px;
+    background-color: #2057bd;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
 }
 
