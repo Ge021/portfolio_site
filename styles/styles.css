@@ -188,3 +188,56 @@ em {
     display: inline-block;
 }
 
+#timeline {
+    margin-left: 50px;
+    padding-left: 50px;
+    border-left: 3px solid #1a1a1a;
+}
+
+.timeline_entry {
+    position: relative;
+}
+
+.entry_dot {
+    position: absolute;
+    left: -58px;
+    top: 0px;
+    width: 10px;
+    height: 10px;
+    background: #C1FF4F;
+    border-radius: 10px;
+    border: 1px solid #1a1a1a;
+
+}
+
+.entry_year {
+    color: #C1FF4F;
+}
+
+.entry_title {
+    color: #ffff;
+    font-size: 1.5rem;
+    margin: 10px 0 0 0;
+}
+
+.entry_sub {
+    margin: 0 0 10px 0;
+}
+
+.entry_description {
+    width: 600px;
+    margin: 0 0 10px 0;
+}
+
+.skills_container {
+    display: flex;
+    gap: 10px;
+}
+
+.skill {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: #1a1a1a;
+}
+
