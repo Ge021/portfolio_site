@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 #title {
     color: #C1FF4F;
     margin: 0;
