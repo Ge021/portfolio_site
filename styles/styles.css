@@ -44,7 +44,7 @@ em {
 .navigation_buttons {
     display: flex;
     justify-content: space-evenly;
-    width: 15%;
+    width: 20%;
     display: flex;
 }
 
