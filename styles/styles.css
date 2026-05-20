@@ -18,7 +18,7 @@ em {
     font-style: normal;
 }
 
-#welcome_box {
+.welcome_box {
         padding: 50px 50px;
         border-bottom: 1px solid #1a1a1a;
 }
@@ -27,7 +27,7 @@ em {
     color: #C1FF4F;
 }
 
-#welcome_text {
+.welcome_text {
     font-family: 'DM Serif Display', serif;
     line-height: 1.1;
     font-size: 2rem;
@@ -62,7 +62,7 @@ em {
     cursor: pointer;
 }
 
-#summary {
+.summary {
     width: 600px;
     color: gray;
 }
