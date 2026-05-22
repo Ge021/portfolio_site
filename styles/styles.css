@@ -242,3 +242,17 @@ em {
     margin-bottom: 100px;
 }
 
+#todo_dot {
+    background-color: #000000;
+    border-width: 3px;
+    left: -59px;
+}
+
+#todo_year {
+    color: gray;
+}
+
+#todo_title {
+    color: gray;
+}
+
